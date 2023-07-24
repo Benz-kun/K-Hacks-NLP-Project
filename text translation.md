@@ -1,0 +1,1 @@
+Natural Language Processing sometimes known simply as anal P is a subfield of artificial intelligence that investigates how computers and people communication is the focus of an LP which is the sub failed of computer science speech recognition natural language comprehension Nagpur language production translation
