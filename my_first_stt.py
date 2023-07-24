@@ -3,24 +3,8 @@ import pyaudio
 
 r = msr.Recognizer()
 
-'''with msr.Microphone() as source:
-    print("Speak something: ")
-    audio = r.listen(source)
-
-    p = pyaudio.PyAudio()
-    try:
-        print(p.get_default_input_device_info())
-    except:
-        print("No mics availiable")
-
-    try:
-        text = r.recognize_google(audio)
-        print("This is what you just said: ")
-
-    except:
-        print("Could not recognize the voice!")'''
-    
-audio_test =    msr.AudioFile(r"/home/ben/Downloads/nlp test audio series/Stt_audio_test_3.wav")
+# audio file which is 1:51 seconds long 
+audio_test =    msr.AudioFile(r"/home/ben/Downloads/nlp test audio series/test_audio_4.wav")
 
 with audio_test as source:
     #print("heklok")
@@ -35,3 +19,4 @@ with audio_test as source:
 f = open('nlp_text.txt','a')
 f.write(text)
 f.close()
+
