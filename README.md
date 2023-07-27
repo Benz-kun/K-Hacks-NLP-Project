@@ -1,3 +1,1 @@
-# K-Hacks-NLP-Project
-This project deals with using Speech to Text technology to create a basic text content. 
-This content will be further worked upon with various features such as text summarization, text highlighting.
+I tired to get the api key and fully integrate Google Speech API but it requires a minimum amount of payment to start. Due to this, i have decided to search more about some open source softwares which might have the same functionalities!
